@@ -3,9 +3,9 @@ const randomColor = () => Math.floor(Math.random() * 255) + 1;
 
 function changeBgColor() {
   const colorText = document.querySelector('#color');
-  let clr1 = randomColor();
-  let clr2 = randomColor();
-  let clr3 = randomColor();
+  const clr1 = randomColor();
+  const clr2 = randomColor();
+  const clr3 = randomColor();
 
   /* document.body.style.backgroundColor = `rgb(${clr1}, ${clr2}, ${clr3})`; */
   document.body.style.background = `linear-gradient(
